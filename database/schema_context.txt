@@ -1,0 +1,138 @@
+============================================================
+DATABASE SCHEMA
+============================================================
+Table Name      : sales_data
+Total Rows      : 11978
+Total Columns   : 19
+
+Columns
+------------------------------------------------------------
+Column : transaction_id
+Type   : INTEGER
+Unique : 11978
+Nulls  : 0
+Samples: [100001, 100002, 100003, 100004, 100005]
+Min    : 100001
+Max    : 111978
+
+Column : week_start
+Type   : TEXT
+Unique : 26
+Nulls  : 0
+Samples: ['2026-01-05', '2026-01-12', '2026-01-19', '2026-01-26', '2026-02-02']
+
+Column : region
+Type   : TEXT
+Unique : 5
+Nulls  : 0
+Samples: ['North', 'South', 'East', 'West', 'Central']
+
+Column : state
+Type   : TEXT
+Unique : 13
+Nulls  : 0
+Samples: ['Delhi', 'Punjab', 'Uttar Pradesh', 'Karnataka', 'Tamil Nadu']
+
+Column : city
+Type   : TEXT
+Unique : 17
+Nulls  : 0
+Samples: ['New Delhi', 'Ludhiana', 'Lucknow', 'Agra', 'Bangalore']
+
+Column : store_id
+Type   : TEXT
+Unique : 34
+Nulls  : 0
+Samples: ['STR101', 'STR102', 'STR103', 'STR104', 'STR105']
+
+Column : product_id
+Type   : TEXT
+Unique : 20
+Nulls  : 0
+Samples: ['P114', 'P108', 'P104', 'P111', 'P109']
+
+Column : product_name
+Type   : TEXT
+Unique : 20
+Nulls  : 0
+Samples: ['Harpic 500ml', 'Amul Milk 1L', "Lay's Classic 52g", 'Colgate Toothpaste 150g', 'Nestle Milkmaid 400g']
+
+Column : category
+Type   : TEXT
+Unique : 5
+Nulls  : 0
+Samples: ['Household', 'Dairy', 'Snacks', 'Personal Care', 'Soft Drinks']
+
+Column : brand
+Type   : TEXT
+Unique : 13
+Nulls  : 0
+Samples: ['Reckitt', 'Amul', 'PepsiCo', 'Colgate', 'Nestle']
+
+Column : promotion_name
+Type   : TEXT
+Unique : 5
+Nulls  : 11286
+Samples: ['Weekend Flash Sale', 'Clearance Offer', 'Festive Combo', 'Loyalty Member Discount', 'June Mega Sale']
+
+Column : promotion_type
+Type   : TEXT
+Unique : 3
+Nulls  : 11286
+Samples: ['Flat Discount', 'BOGO', 'Percentage Discount']
+
+Column : promotion_active
+Type   : INTEGER
+Unique : 2
+Nulls  : 0
+Samples: [0, 1]
+Min    : 0
+Max    : 1
+
+Column : units_sold
+Type   : INTEGER
+Unique : 243
+Nulls  : 0
+Samples: [43, 107, 103, 72, 32]
+Min    : 8
+Max    : 353
+
+Column : revenue
+Type   : REAL
+Unique : 11840
+Nulls  : 0
+Samples: [4337.99, 7102.64, 2087.0, 6045.25, 3096.85]
+Min    : 668.49
+Max    : 13346.66
+
+Column : discount_amount
+Type   : REAL
+Unique : 693
+Nulls  : 0
+Samples: [0.0, 469.01, 1705.64, 174.37, 527.37]
+Min    : 0.0
+Max    : 3949.21
+
+Column : inventory_before
+Type   : INTEGER
+Unique : 4774
+Nulls  : 0
+Samples: [867, 880, 638, 815, 705]
+Min    : 301
+Max    : 10201
+
+Column : inventory_after
+Type   : INTEGER
+Unique : 4776
+Nulls  : 0
+Samples: [824, 773, 535, 743, 673]
+Min    : 191
+Max    : 10183
+
+Column : customer_rating
+Type   : REAL
+Unique : 15
+Nulls  : 0
+Samples: [4.2, 4.7, 4.3, 4.5, 4.0]
+Min    : 3.6
+Max    : 5.0
