@@ -53,8 +53,12 @@ The assistant follows a modular pipeline rather than a single prompt.
 AI-Retail-Analytics/
 │
 ├── notebook.ipynb              # Complete implementation
-├── sales_data.csv              # Retail analytics dataset
-├── knowledge.md                # Business knowledge base
+├──data
+|   ├──sales_data.csv              # Retail analytics dataset
+|   ├──knowledge.md                # Business knowledge base
+├──database
+|   ├──sales.db              # SQLite database
+|   ├──schema_context.txt 
 ├── requirements.txt
 ├── README.md
 ├── .env
